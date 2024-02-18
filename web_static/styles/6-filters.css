@@ -1,0 +1,91 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    position: relative;
+    padding: 10px;
+}
+
+.locations{
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.amenities {
+    height: 100%;
+    width: 25% ;
+    float: left;
+    padding-left: 20px;
+}
+
+.filters h3{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.filters h4{
+    color: black;
+    font-weight: 400;
+    line-height: 4px;
+    margin-bottom: 0;
+    margin-top: 4px;
+
+}
+.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.filters button:hover {
+    opacity: 0.9;
+}
+
+ul {
+    list-style: none ;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+    text-indent: 40px;
+}
+.locations:hover .popover {
+    display: table-cell;
+}
+
+.amenities:hover .popover {
+    display: table-cell;
+}
+
+.popover {
+    margin-top: 6px;
+    display: none;
+    position: absolute;
+    background: #FAFAFA;
+    width: 25%;
+    color: black;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    float: left;
+    padding-bottom: 30px;
+}
