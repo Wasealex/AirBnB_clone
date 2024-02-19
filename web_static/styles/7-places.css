@@ -1,5 +1,6 @@
 .places{
-    font-size: 30px;
+    display: block;
+    text-align: center;
 }
 
 .places article{
@@ -11,7 +12,17 @@
     display: inline-block;
 }
 
+.places h1{
+    text-align: left;
+    font-size: 30px;
+    display: block;
+    margin-top: 50pxs;
+    margin-bottom: 5px;
+}
+
 .places h2 {
     font-size: 30px;
     text-align: center;
+    padding: 0;
+    margin: auto;
 }
